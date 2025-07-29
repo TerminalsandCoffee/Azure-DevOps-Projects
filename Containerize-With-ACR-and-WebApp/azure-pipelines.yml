@@ -1,0 +1,23 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  imageName: 'go-webapp'
+  acrName: 'rafdevacr123'
+  dockerRegistryServiceConnection: 'rafdevacr-connection'
+
+steps:
+- task: Docker@2
+  displayName: 'Build and Push to ACR'
+  inputs:
+    containerRegistry: $(dockerRegistryServiceConnection)
+    repository: $(imageName)
+    command: buildAndPush
+    Dockerfile: '**/Dockerfile'
+    tags: |
+      $(Build.BuildId)

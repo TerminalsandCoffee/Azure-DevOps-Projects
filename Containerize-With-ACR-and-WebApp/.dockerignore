@@ -1,0 +1,4 @@
+*.go~
+*.swp
+*.log
+vendor
