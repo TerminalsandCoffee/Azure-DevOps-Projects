@@ -56,20 +56,7 @@ Monitoring is key to reliability. This project helps you track performance, avai
 
 ---
 
-## 🧪 5. Implement Feature Flags with LaunchDarkly or Azure App Configuration
-
-**Why this matters:**  
-Feature flags enable safer deployments and rapid rollbacks. This project explores how to decouple code releases from feature rollouts.
-
-**Hands-on skills you'll build:**  
-- Configure feature flags per environment  
-- Use LaunchDarkly or Azure App Configuration  
-- Test progressive rollouts and A/B testing  
-- Roll back features without redeploying
-
----
-
-## 🔄 6. Blue-Green or Canary Deployment Strategy
+## 🔄 5. Blue-Green or Canary Deployment Strategy
 
 **Why this matters:**  
 Minimizing downtime during deployment is crucial. This project demonstrates safe rollout strategies used in production environments.
@@ -82,7 +69,7 @@ Minimizing downtime during deployment is crucial. This project demonstrates safe
 
 ---
 
-## 📦 7. Containerize & Deploy with ACR + Web App for Containers
+## 📦 6. Containerize & Deploy with ACR + Web App for Containers
 
 **Why this matters:**  
 Containers are central to cloud-native DevOps. This project walks you through building, storing, and deploying containerized applications.
@@ -93,44 +80,6 @@ Containers are central to cloud-native DevOps. This project walks you through bu
 - Deploy to Web App for Containers  
 - Automate Docker builds and pushes via pipeline
 
----
-
-## 🧰 8. Self-Hosted Azure DevOps Agent
-
-**Why this matters:**  
-Self-hosted agents offer flexibility for custom builds, private networks, or resource-intensive jobs. This project gets you hands-on with setting one up.
-
-**Hands-on skills you'll build:**  
-- Deploy and configure a VM or container as an agent  
-- Connect it to Azure DevOps  
-- Run builds on your custom environment  
-- Manage agent pools and capabilities
-
----
-
-## 📘 9. Implement Branching Strategy + PR Workflow
-
-**Why this matters:**  
-Git discipline supports team collaboration and code quality. This project reinforces modern branching strategies with PR automation.
-
-**Hands-on skills you'll build:**  
-- Implement GitFlow or trunk-based development  
-- Configure branch protection and PR review policies  
-- Automate test/build pipelines on PRs  
-- Enforce code quality with required checks
-
----
-
-## 🔁 10. YAML-Only Azure Pipeline with Multi-Stage Builds
-
-**Why this matters:**  
-YAML pipelines allow full pipeline-as-code management. This project helps you master flexible and reusable pipeline definitions.
-
-**Hands-on skills you'll build:**  
-- Define multi-stage pipelines entirely in YAML  
-- Use templates, variables, and conditions  
-- Automate build, test, and deploy steps  
-- Eliminate dependency on classic UI pipelines
 
 ---
 
@@ -141,5 +90,6 @@ By completing these projects, you'll gain:
 - Experience with **Azure-native CI/CD, monitoring, and security tools**
 - Skills to confidently handle **AZ-400 exam topics**
 - A solid foundation in **automation, infrastructure as code, and release strategies**
+
 
 
